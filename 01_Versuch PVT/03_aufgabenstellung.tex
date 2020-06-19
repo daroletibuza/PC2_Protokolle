@@ -23,10 +23,10 @@ Im Praktikumsversuch "`p-V-T-Verhalten eines Reinstoffs"' wird das Verhalten des
 
 \textbf{Molares Volumen:}
 \begin{flalign}
-	V_m &= \frac{\overline{n}}{V}
+	V_m &= \frac{V}{\overline{n}}
 \end{flalign}
 
-\textbf{Van-der-Waals-Konstanten für Binnendruckparameter a und Ko-Volumen b:}
+\textbf{Achsenabschnitt a und Anstieg b}
 \begin{flalign}
 	a	&= n(p=0)
 \end{flalign}
@@ -34,9 +34,20 @@ Im Praktikumsversuch "`p-V-T-Verhalten eines Reinstoffs"' wird das Verhalten des
 		b	&= f'(p,n)
 \end{flalign}
 
-\textbf{Van-der-Waals-Gleichung (intensiv):}
+\textbf{Virialgleichung:}
 \begin{flalign}
-	\left(p+\frac{a}{{V_m}^2}\right)*(V_m-b) &= R*T
+	p*V &= n*R*T+n*B(T)*p\\
+	p*V_m&=	R*T+B(T)*p
+\end{flalign}
+
+\textbf{\textsc{Van-der-Waals}-Gleichung:}
+\begin{flalign}
+\left(p+\frac{a}{{V_m}^2}\right)*\left(V_m-b\right) &= R*T
+\end{flalign}
+
+\textbf{\textsc{Peng-Robinson}-Gleichung:}
+\begin{flalign}
+P&= \frac{R*T}{V_m-b}-\frac{a(T)}{V_m*(V_m+b)+b*(V_m-b)}
 \end{flalign}
 
 \textbf{Druckkorrektur durch die \ce{Hg}-Säule:}
