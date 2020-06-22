@@ -1,8 +1,9 @@
 \babel@toc {ngerman}{}
 \contentsline {section}{\numberline {1}Einleitung und Versuchsziel}{2}{section.1}%
-\contentsline {section}{\numberline {2}Versuchsdurchführung}{3}{section.2}%
-\contentsline {section}{\numberline {3}Ergebnisse}{4}{section.3}%
-\contentsline {section}{\numberline {4}Fehlerbetrachtung}{9}{section.4}%
-\contentsline {section}{\numberline {5}Diskussion der Ergebnisse}{9}{section.5}%
-\contentsline {section}{\numberline {6}Zusammenfassung und Fazit}{9}{section.6}%
-\contentsline {section}{Literaturverzeichnis}{10}{section*.14}%
+\contentsline {section}{\numberline {2}Versuchsdurchführung}{4}{section.2}%
+\contentsline {section}{\numberline {3}Ergebnisse}{5}{section.3}%
+\contentsline {section}{\numberline {4}Fehlerbetrachtung}{8}{section.4}%
+\contentsline {section}{\numberline {5}Diskussion der Ergebnisse}{8}{section.5}%
+\contentsline {section}{\numberline {6}Zusammenfassung und Fazit}{8}{section.6}%
+\contentsline {section}{Literaturverzeichnis}{9}{section*.16}%
+\contentsline {section}{Anhang}{10}{section*.17}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.18)  22 JUN 2020 11:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.18)  22 JUN 2020 18:06
 entering extended mode
 **./00_PC_Protokoll.tex
 (00_PC_Protokoll.tex
@@ -1484,97 +1484,106 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
  [1
 
 ] (03_aufgabenstellung.tex
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-
+Underfull \hbox (badness 1521) in paragraph at lines 16--18
+\T1/lmr/m/n/12 de-ne, wäss-ri-ge Pro-ben auf ih-re Ober-flä-chen-span-nung un-t
+er-sucht. Zu-dem ist
  []
 
 
-LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
-(Font)              using `T1/lmr/bx/n' instead on input line 43.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 56.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 56.
-
-) (05_durchfuerung.tex [2]
-Underfull \hbox (badness 10000) in paragraph at lines 10--12
-
+Underfull \hbox (badness 2088) in paragraph at lines 21--23
+\T1/lmr/m/n/12 Pha-se von Kohäsions- und Kräf-ten zwi-schen Pha-sen von Ad-hä-s
+i-ons-kräf-ten
  []
 
-) (06_ergebnisse.tex [3]
+
+LaTeX Font Warning: Font shape `T1/lmss/bx/sc' undefined
+(Font)              using `T1/lmss/bx/n' instead on input line 24.
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 25--26
+\T1/lmr/m/n/12 span-nun-gen von $\OML/lmm/m/it/12 v$\T1/lmr/m/n/12 -$\OML/lmm/m
+/it/12 l$\T1/lmr/m/n/12 - so-wie $\OML/lmm/m/it/12 l$\T1/lmr/m/n/12 -$\OML/lmm/
+m/it/12 l$\T1/lmr/m/n/12 -Systemen ge-nutzt. Bei die-ser Me-tho-de wird
+ []
+
+[2]
+<img/real.png, id=20, 508.14844pt x 329.73187pt>
+File: img/real.png Graphic file (type png)
+<use img/real.png>
+Package pdftex.def Info: img/real.png  used on input line 35.
+(pdftex.def)             Requested size: 213.39568pt x 138.47133pt.
+
+Underfull \hbox (badness 1048) in paragraph at lines 41--42
+\T1/lmr/m/n/12 theo-re-ti-schen Wert der Ober-flä-chen-span-nung $\OML/lmm/m/it
+/12 []$ \T1/lmr/m/n/12 ein Ver-hält-nis ge-bil-det. Der
+ []
+
+) (05_durchfuerung.tex [3 <./img/real.png>]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+3.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+Overfull \hbox (29.77534pt too wide) in paragraph at lines 10--193
+\T1/lmr/m/n/12 Für den Ver-such zur Oberflächenspannung-Bestimmung wur-de das [
+]der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--193
+\T1/lmr/m/n/12 rier-tes Was-ser für die Kor-rek-tur-fak-tor-be-stim-mung an-ge-
+wen-det.
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 10--193
+\T1/lmr/m/n/12 Im zwei-ten Ver-suchs-teil er-folgt dann die Mes-sung ver-schie-
+de-ner selbst an-
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 10--193
+\T1/lmr/m/n/12 ge-setz-ter Pro-ben. In die-sem Fall um-fas-sen die Pro-ben ei-n
+e Koch-salz-lö-sung
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 10--193
+\T1/lmr/m/n/12 ([][]), Etha-nol ([][]) und ei-ne Natriumdodecylsulfat-Lösung ([
+][]).
+ []
+
+(06_ergebnisse.tex [4] [5]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[4]
-Missing character: There is no ; in font nullfont!
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[5]
-Underfull \hbox (badness 1701) in paragraph at lines 231--231
-[][][]|\T1/lmr/m/n/12 Se-lek-tier-te, be-rech-ne-te Stoff-men-gen in Ab-hän-gig
--keit vom Druck der
- []
 
 [6]
-
-LaTeX Warning: Citation `Foth.2006' on page 7 undefined on input line 242.
-
-
-LaTeX Warning: Citation `Wikipedia.2020b' on page 7 undefined on input line 242
-.
-
-
-Underfull \hbox (badness 1472) in paragraph at lines 238--245
-\T1/lmr/m/n/12 Die Mess-rei-hen 1 und 2, wel-che ge-rin-ge-re Tem-pe-ra-tu-ren 
-auf-wei-sen, ver-lau-
+Overfull \hbox (28.45486pt too wide) in paragraph at lines 180--191
+ [][] 
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 238--245
-\T1/lmr/m/n/12 fen nach der 1. Pha-se des An-stiegs bei der Kom-pri-mie-rung nu
-n kon-stant
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \hbox (badness 4819) in paragraph at lines 238--245
-\T1/lmr/m/n/12 wei-ter. Die Mess-rei-hen 3 und 4 je-doch stei-gen wei-ter ex-po
--nen-ti-ell an.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 238--245
-
- []
-
-[7]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 259.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 259.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 259.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 264.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 264.
-
-) (011_fehlerbetrachtung.tex) [8] (07_diskussion.tex) (10_zusammenfassung.tex)
-[9]
+[7]) (011_fehlerbetrachtung.tex) (07_diskussion.tex) (10_zusammenfassung.tex)
+[8]
 \openout2 = `08_literatur.aux'.
 
- (08_literatur.tex (00_PC_Protokoll.bbl)) [10
+ (08_literatur.tex (00_PC_Protokoll.bbl
+
+LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
+               before end of `thebibliography' environment on input line 10.
+
+)) [9
 
 ]
 \openout2 = `09_anhang.aux'.
 
- (09_anhang.tex)
+ (09_anhang.tex) [10
 
+
+] 
 AED: lastpage setting LastPage
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 208.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 208.
@@ -1585,21 +1594,21 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 208.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 208.
  ) 
 Here is how much of TeX's memory you used:
- 39795 strings out of 480763
- 935791 string characters out of 2903973
- 1496930 words of memory out of 3000000
- 55027 multiletter control sequences out of 15000+200000
- 657237 words of font info for 108 fonts, out of 3000000 for 9000
+ 39743 strings out of 480763
+ 935480 string characters out of 2903973
+ 1416141 words of memory out of 3000000
+ 54972 multiletter control sequences out of 15000+200000
+ 633302 words of font info for 90 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,25n,111p,10112b,2986s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section*.14} has been referenced but does not exi
+ 75i,24n,111p,10112b,2634s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{section*.17} has been referenced but does not exi
 st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.16} has been referenced but does not exist
+, replaced by a fixed one
 
 pdfTeX warning (dest): name{section.6} has been referenced but does not exist, 
 replaced by a fixed one
@@ -1619,24 +1628,23 @@ replaced by a fixed one
 pdfTeX warning (dest): name{section.1} has been referenced but does not exist, 
 replaced by a fixed one
 
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiK
-TeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc
-/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.e
-nc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/lm/lmbx8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
-m/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr1
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on 00_PC_Protokoll.pdf (11 pages, 485301 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiK
+TeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvi
+ps/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files
+/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/
+lmbx8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+lm/lmsy8.pfb>
+Output written on 00_PC_Protokoll.pdf (11 pages, 483148 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
- 82 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 140 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
+ 87 words of extra memory for PDF output out of 10000 (max. 10000000)
 
