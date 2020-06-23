@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.18)  22 JUN 2020 18:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.18)  23 JUN 2020 09:45
 entering extended mode
 **./00_PC_Protokoll.tex
 (00_PC_Protokoll.tex
@@ -1554,36 +1554,190 @@ Underfull \hbox (badness 1107) in paragraph at lines 10--193
 ][]).
  []
 
-(06_ergebnisse.tex [4] [5]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[6]
-Overfull \hbox (28.45486pt too wide) in paragraph at lines 180--191
+(06_ergebnisse.tex [4] [5] [6]
+Overfull \hbox (28.45206pt too wide) in paragraph at lines 189--200
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7]) (011_fehlerbetrachtung.tex) (07_diskussion.tex) (10_zusammenfassung.tex)
-[8]
+[7]
+Underfull \hbox (badness 2158) in paragraph at lines 239--241
+\T1/lmr/m/n/12 Somit lässt sich über die Re-gres-si-ons-ge-ra-de auch die Ober-
+flä-chen-span-nung
+ []
+
+) (011_fehlerbetrachtung.tex [8])
+Underfull \hbox (badness 1983) in paragraph at lines 5--197
+\T1/lmr/m/n/12 Stan-dard-ab-wei-chung von we-ni-ger als [][] für die Prä-zi-si-
+on der Mess-wer-te.
+ []
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 5--197
+\T1/lmr/m/n/12 über-prüf-ten Zu-sam-men-hän-ge und Mess-da-ten noch-mals mit ei
+-nem an-de-ren
+ []
+
+(07_diskussion.tex
+Underfull \hbox (badness 3108) in paragraph at lines 15--18
+\T1/lmr/m/n/12 und so-mit ap-pa-ra-ti-ve Mess-ab-wei-chun-gen von rund [][] ver
+-mie-den wer-den
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 15--18
+\T1/lmr/m/n/12 Aus den Mit-tel-wer-ten der ver-schie-de-nen Pro-ben in Tab. 4 l
+as-sen sich die
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 15--18
+\T1/lmr/m/n/12 Den-noch ver-rin-gern bei-de Fremd-stof-fe die Ober-flä-chen-spa
+n-nung des Was-sers.
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 15--18
+\T1/lmr/m/n/12 Grund da-für sind die ge-stör-ten Was-ser-stoff-brücken-bin-dun-
+gen in der Lö-sung.
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 15--18
+\T1/lmr/m/n/12 be-ein-flusst wer-den. Etha-nol hin-ge-gen be-sitzt be-reits ein
+en un-po-la-ren An-teil
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 15--18
+\T1/lmr/m/n/12 im Mo-le-kül. Zwar löst sich Etha-nol im Was-ser durch den po-la
+-ren An-teil,
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 15--18
+\T1/lmr/m/n/12 der durch die Hydroxid-Gruppe re-prä-sen-tiert wird, je-doch sin
+kt durch die
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 15--18
+\T1/lmr/m/n/12 Die Ober-flä-chen-span-nung sinkt deut-li-cher im Ver-gleich zum
+ Na-tri-um-chlo-rid.
+ []
+
+[9]
+<img/ethanol.png, id=55, 803.0pt x 537.00626pt>
+File: img/ethanol.png Graphic file (type png)
+<use img/ethanol.png>
+Package pdftex.def Info: img/ethanol.png  used on input line 21.
+(pdftex.def)             Requested size: 106.69783pt x 71.35374pt.
+<img/nadds.png, id=57, 1927.2pt x 273.02pt>
+File: img/nadds.png Graphic file (type png)
+<use img/nadds.png>
+Package pdftex.def Info: img/nadds.png  used on input line 29.
+(pdftex.def)             Requested size: 213.39568pt x 30.22809pt.
+) (10_zusammenfassung.tex
+Underfull \hbox (badness 1127) in paragraph at lines 12--15
+\T1/lmr/m/n/12 Als Er-kennt-nis lässt sich fest-stel-len, dass die Struk-tur de
+r Fremd-stof-fe, die
+ []
+
+
+Underfull \hbox (badness 3088) in paragraph at lines 12--15
+\T1/lmr/m/n/12 ei-ner wäss-ri-gen Lö-sung zu-ge-ge-ben wird von mas-si-ver Be-d
+eu-tung für den
+ []
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 12--15
+\T1/lmr/m/n/12 Ein-fluss auf Ober-flä-chen-span-nun-gen ist. So-mit könn-ten an
+-hand be-stimm-ter
+ []
+
+[10 <./img/ethanol.png> <./img/nadds.png>]
+Underfull \hbox (badness 3568) in paragraph at lines 16--17
+[]\T1/lmr/m/n/12 Ebenfalls po-si-tiv auf die Ober-flä-chen-span-nung-ver-rin-ge
+-rung wirk-te sich die
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 16--17
+\T1/lmr/m/n/12 für die Re-gres-si-on Un-ter-schie-de auf, je-doch ist die all-g
+e-mei-ne Ten-denz der
+ []
+
+)
+Underfull \hbox (badness 1975) in paragraph at lines 18--201
+[]\T1/lmr/m/n/12 Möchte man al-so die Ober-flä-chen-span-nung von wäss-ri-gen F
+lüs-sig-kei-ten für
+ []
+
+[11]
 \openout2 = `08_literatur.aux'.
 
  (08_literatur.tex (00_PC_Protokoll.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 29--35
+\T1/lmr/m/n/12 wikipedia . org / w / index . php ? title = Sodium _ dodecyl _ s
+ulfate & oldid = 959612478$,
+ []
 
-LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
-               before end of `thebibliography' environment on input line 10.
-
-)) [9
+)) [12
 
 ]
 \openout2 = `09_anhang.aux'.
 
- (09_anhang.tex) [10
+ (09_anhang.tex
+<data/surf_data.pdf, id=71, 614.295pt x 868.71101pt>
+File: data/surf_data.pdf Graphic file (type pdf)
+<use data/surf_data.pdf>
+Package pdftex.def Info: data/surf_data.pdf  used on input line 5.
+(pdftex.def)             Requested size: 614.29349pt x 868.7089pt.
+File: data/surf_data.pdf Graphic file (type pdf)
+<use data/surf_data.pdf>
+Package pdftex.def Info: data/surf_data.pdf  used on input line 5.
+(pdftex.def)             Requested size: 614.29349pt x 868.7089pt.
+<data/surf_data.pdf, id=74, page=1, 614.295pt x 868.71101pt>
+File: data/surf_data.pdf Graphic file (type pdf)
+<use data/surf_data.pdf, page 1>
+Package pdftex.def Info: data/surf_data.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 614.29349pt x 868.7089pt.
+File: data/surf_data.pdf Graphic file (type pdf)
+<use data/surf_data.pdf, page 1>
+Package pdftex.def Info: data/surf_data.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 597.78697pt x 845.36604pt.
+File: data/surf_data.pdf Graphic file (type pdf)
+<use data/surf_data.pdf, page 1>
+Package pdftex.def Info: data/surf_data.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 597.78697pt x 845.36604pt.
+File: data/surf_data.pdf Graphic file (type pdf)
+<use data/surf_data.pdf, page 1>
+Package pdftex.def Info: data/surf_data.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 597.78697pt x 845.36604pt.
+File: data/surf_data.pdf Graphic file (type pdf)
+<use data/surf_data.pdf, page 1>
+Package pdftex.def Info: data/surf_data.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 597.78697pt x 845.36604pt.
+ [13
 
 
-] 
+ <./data/surf_data.pdf>]
+<data/surf_data.pdf, id=109, page=2, 614.295pt x 868.71101pt>
+File: data/surf_data.pdf Graphic file (type pdf)
+<use data/surf_data.pdf, page 2>
+Package pdftex.def Info: data/surf_data.pdf , page2 used on input line 5.
+(pdftex.def)             Requested size: 597.78697pt x 845.36604pt.
+File: data/surf_data.pdf Graphic file (type pdf)
+<use data/surf_data.pdf, page 2>
+Package pdftex.def Info: data/surf_data.pdf , page2 used on input line 5.
+(pdftex.def)             Requested size: 597.78697pt x 845.36604pt.
+File: data/surf_data.pdf Graphic file (type pdf)
+<use data/surf_data.pdf, page 2>
+Package pdftex.def Info: data/surf_data.pdf , page2 used on input line 5.
+(pdftex.def)             Requested size: 597.78697pt x 845.36604pt.
+ [14 <./data/surf_data.pdf>]) 
 AED: lastpage setting LastPage
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 208.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 208.
@@ -1597,18 +1751,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 208.
  ) 
 Here is how much of TeX's memory you used:
- 39743 strings out of 480763
- 935480 string characters out of 2903973
+ 39781 strings out of 480763
+ 936239 string characters out of 2903973
  1416141 words of memory out of 3000000
- 54972 multiletter control sequences out of 15000+200000
- 633302 words of font info for 90 fonts, out of 3000000 for 9000
+ 55006 multiletter control sequences out of 15000+200000
+ 637564 words of font info for 91 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,24n,111p,10112b,2634s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section*.17} has been referenced but does not exi
+ 75i,29n,111p,10112b,2632s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{section*.19} has been referenced but does not exi
 st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.16} has been referenced but does not exist
-, replaced by a fixed one
 
 pdfTeX warning (dest): name{section.6} has been referenced but does not exist, 
 replaced by a fixed one
@@ -1628,8 +1779,8 @@ replaced by a fixed one
 pdfTeX warning (dest): name{section.1} has been referenced but does not exist, 
 replaced by a fixed one
 
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiK
-TeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvi
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiK
+TeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvi
 ps/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files
 /MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files/MiKTeX 2.9/fonts
@@ -1638,13 +1789,14 @@ lmbx8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-lm/lmsy8.pfb>
-Output written on 00_PC_Protokoll.pdf (11 pages, 483148 bytes).
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
+mssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
+Output written on 00_PC_Protokoll.pdf (15 pages, 3813653 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
- 87 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 203 PDF objects out of 1000 (max. 8388607)
+ 7 named destinations out of 1000 (max. 500000)
+ 122 words of extra memory for PDF output out of 10000 (max. 10000000)
 
