@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: 00_PC_Protokoll.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: 01_titel.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+A level-1 auxiliary file: 08_literatur.aux
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: unsrtdin.bst
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: 09_anhang.aux
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: Literatur.bib
+You've used 5 entries,
+            4011 wiz_defined-function locations,
+            812 strings with 6177 characters,
+and the built_in function-call counts, 1942 in all, are:
+= -- 163
+> -- 24
+< -- 37
++ -- 39
+- -- 8
+* -- 126
+:= -- 262
+add.period$ -- 9
+call.type$ -- 5
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 5
+duplicate$ -- 69
+empty$ -- 248
+format.name$ -- 18
+if$ -- 458
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 25
+newline$ -- 41
+num.names$ -- 5
+pop$ -- 30
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 89
+stack$ -- 0
+substring$ -- 147
+swap$ -- 18
+text.length$ -- 9
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 15
+width$ -- 6
+write$ -- 79
