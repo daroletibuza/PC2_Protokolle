@@ -12,33 +12,104 @@
 %- Abschluss des Kapitels: Finale Wertung der erarbeiteten Ergebnisse und Darstellung
 %ihrer Kernaussage in kurzer prägnanter Form.
 
-Bezieht man sich lediglich auf die statistischen Kennwerte erscheinen die Messwerte im Versuch als hinreichend genau und mit geringen Abweichungen versehen. \linebreak
-So zeigt sich, dass die Kalibrierkonstante $K_{\text{kal}}$ als hinreichend plausibel erscheint und somit apparative Messabweichungen von rund \SI{4}{\percent} vermieden werden können. Die stofflichen Korrekturfaktoren $K$ wurden mittels literarischer Quelle bestimmt, welche durch die Praktikumsanleitung zur Verfügung gestellt wurde und wirken daher ebenfalls vertraulich \cite{Harkins.1930}. Es ist jedoch möglich, dass inzwischen aktuellere Quellen und Methoden zu genaueren Messergebnissen führen könnten.\linebreak 
-Aus den Mittelwerten der verschiedenen Proben in Tab. \ref{tab:Stoffdaten} lassen sich die Einwirkung von Fremdstoffen in einer wässrige Lösung auf die Oberflächenspannung erkennen. Die Fremdstoffe Natriumchlorid und Ethanol weisen mit \SI{70,7}{\milli \newton \per \meter} und \SI{67,5}{\milli \newton \per \meter} geringe Abweichungen von reinem Wasser mit \SI{72,8}{\milli \newton \per \meter} bei \SI{20}{\celsius} auf. Dennoch verringern beide Fremdstoffe die Oberflächenspannung des Wassers. Grund dafür sind die gestörten Wasserstoffbrückenbindungen in der Lösung. Durch Zugabe der Fremdstoffe bilden sich diese starken Anziehungskräfte zum Phasen inneren der Lösung weniger stark aus und die Oberflächenspannung sinkt. Da Natriumchlorid polar ist als Salz und fügt sich demnach vergleichsweise gut in die Struktur des Wassers ein. Die Abweichungen fallen demnach gering aus, das die Anziehungskräfte der Wasserstoffbrückenbindungen nicht zu stark beeinflusst werden. Ethanol hingegen besitzt bereits einen unpolaren Anteil im Molekül. Zwar löst sich Ethanol im Wasser durch den polaren Anteil, der durch die Hydroxid-Gruppe repräsentiert wird, jedoch sinkt durch die weiter abweichende Struktur auch die Anziehung zwischen den Wassermolekülen. Die Oberflächenspannung sinkt deutlicher im Vergleich zum Natriumchlorid. \linebreak Vergleicht man jedoch nun beide Proben mit dem Tensid NaDDS mit \SI{39,9}{\milli \newton \per \meter} so wird ein starker Unterschied klar. Der Grund für diesen großen Unterschied in der Oberflächenspannung lässt sich erneut in der Struktur finden. Vergleicht man die Strukturen von Ethanol und NaDDS so lässt sich erkennen, dass NaDDS einen deutlich höheren, unpolaren Anteil im Molekül hat als das Ethanol-Molekül \mbox{(vgl. Abb. \ref{fig:ethanol} und Abb. \ref{fig:nadds})} . Das hat zur Folge, dass sich die Ausbildung von Wasserstoffbrücken noch stärker einschränkt.
+Die aufgenommenen Messwerte scheinen im Vergleich mit den hinterlegten Literaturwerten des Programms \textsc{ZUST} in Abb. \ref{fig:literatur} als plausibel. Zwar sind geringe Abweichungen erkennbar, jedoch nicht in der Größenordnung, dass sie als fehlerhaft bezeichnet werden können.\\
+Die Regression mittels \textsc{ZUST} und dem Modell der \textsc{Antoine}-Gleichung in Abb.\ref{fig:antoine_fit} zeigt geringe Abweichungen zu den den Messwerten auf. Da spricht für einen guten Fit der Daten. Im Vergleich mit den Literaturwerten aus \textsc{ZUST} in Tab. \ref{tab:antoine_const} sind jedoch Abweichungen erkennbar. Grund hierfür werden zum einen die Abweichungen durch die experimentelle Messung selbst und die unterschiedlichen Temperaturbereiche sein. Vergleicht man die Dimensionen der Parameter $A$, $B$ und $C$ zwischen dem Fitting und der Literatur, so erscheinen diese dennoch ähnlich mit vertretbaren Abweichungen.\\
+Die Berechnung der molaren Verdampfungsenthalpie mit dem aus \textsc{ZUST} berechneten Wert bestätigt diese Aussage, durch ebenfalls geringfügige Abweichungen zwischen dem experimentellen und dem Literaturwert in Tab. \ref{tab:verdampf}.\\
+Die dargestellten Fittings mittels \textsc{Frost-Kalkwarf}- und \textsc{Antoine}-Gleichung zeigen, dass das \textsc{Frost-Kalkwarf}-Modell bessere Fittingeigenschaften aufweist. Die Messwerte werden mit weniger Abweichungen erfasst. In Anbetracht dieser Beobachtung würde sich  für zukünftige Modellierungen das \textsc{Frost-Kalkwarf}-Modell in Bezug auf Genauigkeit besser eigenen, jedoch ist die \textsc{Antoine}-Gleichung vermutlich für viele, simple Anwendungen hinreichend genau und besticht durch Einfachheit mittels der experimentellen \textsc{Antoine}-Parametern, sowie der \mbox{Gleichung (\ref{gl:antoine})}.
 
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=0.25\textwidth]{img/ethanol}
-	\caption{\textsc{Lewis}-Formel für Ethanol \cite{Wikipedia.2020d}}
-	\label{fig:ethanol}
-\end{figure}
-\FloatBarrier
-%Ende
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=0.5\textwidth]{img/nadds}
-	\caption{\textsc{Lewis}-Formel für NaDDS \cite{Wikipedia.2020c}}
-	\label{fig:nadds}
-\end{figure}
-\FloatBarrier
-%Ende
-NaDDS als anionisches Tensid besitzt einen langen, hydrophoben Alkylrest, welcher dazu führt, dass sich der hydrophobe Rest in Richtung der Grenzoberfläche der Lösung ausrichtet. Dieser hydrophobe Film senkt die Oberflächenspannung des Wassers massivst (siehe Tab. \ref{tab:Stoffdaten}). Deshalb werden Tenside im Regelfall als oberflächenaktive Substanzen charakterisiert.
+\newpage
 
-Für die Beurteilung der Temperaturabhängigkeit der Oberflächenspannung zeigt sich in Abb. \ref{dia:oberflaechenT} ein linearer Zusammenhang. Dieser beschreibt, dass mit steigender Temperatur die Oberflächenspannung der Lösung sinkt. Dies deckt sich mit dem theoretischen Verhalten aus Literaturquellen, sowie der Praktikumsanleitung \cite{Hulsenberg.2010}.
-Als Begründung für die sinkende Oberflächenspannung mit Temperaturanstieg lässt sich auf die kinetische Energie der Moleküle in der Flüssigkeit verweisen. Diese steigt mit der Temperatur zusammen und sorgt dafür, dass mehr Teilchen die benötigte Energie aufweisen, um die Anziehungskräfte zum Flüssigkeitsinneren zu überwinden. Somit nimmt die Oberflächenspannung an der Phasengrenze ab.\linebreak
-Im Diagramm (Abb. \ref{dia:oberflaechenT}) ist über die lineare Regression ebenfalls der Messpunkte durchführen. Diese lässt, laut Gleichung \eqref{gl:neunzig}, bei einer Temperatur von \SI{90}{\celsius} eine Oberflächenspannung von \SI{64,3}{\milli \newton \per \meter} bestimmen. Vergleicht man diesen Wert mit einer Literaturquelle so zeigen sich Unterschiede. Die Literaturquelle gibt für \SI{90}{\celsius} eine Oberflächenspannung von \SI{60,8}{\milli \newton \per \meter} an \cite{.20200623T05:06:09.000Z}. Da dieser Wert eine Abweichung zum Messwert aufweist, sollten die entweder engere Temperaturintervalle für die Aufnahme der Regressionsgerade gewählt werden bzw. müssen im äußersten Fall die Messungen wiederholt werden. 
+\subsection*{Aufgaben zur Versuchsauswertung}
+\begin{enumerate}[a)]
+	\item \textbf{Warum ist für sehr genaue Messungen eine Korrektur der am Hg-Präzisionsbarometer abgelesenen Druckwerte nötig? Um welche Art von Korrekturen handelt es sich?}\\\\
+	Für eine Präzise Messung ist die Korrektur des abgelesenen Drucks mittels dem Programm \textsc{Baro} nötig. Dieses kompensiert in der Berechnung, mittels Angabe der Temperatur, den Schweredruck der Quecksilbersäule, die geographische Höhe von Merseburg, sowie die Kalibration der thermischen Anpassung des Barometers. Werden diese Fehlerquellen nicht behoben, können Fehler in der Auswertung der gemessen Daten unter diesen Viersuchbedingungen auftreten.
+	
+	\item \textbf{Erläutern Sie inwiefern Verunreinigungen in der flüssigen Phase zu einer Fehlbestimmung der temperaturabhängigen Dampfdruckwerte führen können.}\\\\
+	Je nach dem welche Art von Verunreinigung vorherrscht können verschiedene Auswirkungen in Frage kommen. Werden beispielsweise nicht-siedende, nicht-wechselwirkende Salze dem Isopropanol hinzugegeben, kommt es zur Siedepunktserhöhung des Isopropanols. Das erklärt sich aus der Tatsache, dass diese Verunreinigung durch Fremdteilchen die Austauschfläche zwischen der flüssigen und der gasförmigen Phase für Isopropanol-Moleküle verringert. Somit ist mehr Energie nötig um den gleichen Dampfdruck durch Teilchenübergang aus der Flüssig- in die Gasphase zu erzeugen.\linebreak
+	Ist das Isopropanol durch ein Schwer- oder Leichtsieder verunreinigt so passiert es in der idealen Mischung, dass sich die Dampfkurve in Richtung des Schwer- bzw. Leichtsieders verschiebt oder, im nicht idealen Fall, weitere Wechselwirkungen zwischen den Stoffen den Verlauf der Dampfkurve beeinflussen.\linebreak
+	Es wird deutlich das Verunreinigungen essentiellen Einfluss auf die Aufnahme des $p$-$T$-Graphen haben.
+	
+	\item \textbf{c) Stellen Sie Formel und Bedeutung der Clausius-Clapeyron Gleichung dar und zeigen Sie durch Integration wie daraus die August´sche Dampfdruckgleichung erhalten}\\
+	
+	\textit{\textsc{Clausius-Clapeyron}-Gleichung:}
+	\begin{flalign}
+		\frac{\text{d} p}{\text{d} T} &= \frac{\Delta^{\text{LV}} H_m}{\Delta^{\text{LV}} V_m*T}
+	\end{flalign}
+	\begin{flalign}
+	\tag{$\,^{\text{L}} V_m \rightarrow 0$}
+		\Delta^{\text{LV}} V_m &= \,^{\text{V}} V_m-\,^{\text{L}} V_m\\
+		&\approx \,^{\text{V}} V_m
+	\end{flalign}
+	\begin{flalign}
+	\frac{\text{d} p}{\text{d} T} &= \frac{\Delta^{\text{LV}} H_m}{\,^{\text{V}} V_m*T}\\
+	\tag{$\,^{\text{V}} V_m=\frac{R*T}{p}$}
+	\text{d} p &=  \frac{\Delta^{\text{LV}} H_m}{\,^{\text{V}} V_m*T} *\text{d}T\\
+	\frac{1}{p}*\text{d} p &= \frac{\Delta^{\text{LV}} H_m}{T^2*R}*\text{d}T
+	\end{flalign}
+	\textit{\textsc{August}'sche Gleichung durch Integration:}
+	\begin{flalign}
+	\int \frac{1}{p}*\text{d} p &= \int \frac{\Delta^{\text{LV}} H_m}{T^2*R}*\text{d}T\\
+	\ln\left(\frac{p_2}{p_1}\right) &= \frac{\Delta^{\text{LV}} H_m}{R}*\left(\frac{1}{T_2}-\frac{1}{T_1}\right)
+	\end{flalign}
+	\item \textbf{Wie können Sie grafisch prüfen, dass der Dampfdruck einer reinen Flüssigkeit unter Annahme idealen Verhaltens für die Gas- und die Flüssigkeitsphase eine exponentielle Temperaturabhängigkeit besitzt?}\\\\
+	Um diese Annahme zu prüfen ist es notwendig ein Modell mit exponentiellen Zusammenhang auf die gemessenen Daten anzuwenden. Ein solches Modell stellt die \textsc{August}'sche-Gleichung dar. Linearisiert man die exponentielle Form mittels Logarithmieren so erhält man eine über Trendlinien eine Geradengleichung, dessen Bestimmtheitsmaß Auskunft über diesen Zusammenhang gibt.
+	\begin{flalign}
+		p_s 		&= \text{e}^{\frac{\Delta^{\text{LV}} H_m}{R*T}+C}\\
+		\ln p_s &= \frac{\Delta^{\text{LV}} H_m}{R*T}+C
+	\end{flalign}
+	
+	\item \textbf{Wofür steht am Präzisionsthermometer der Begriff Pt-100? Erläutern Sie kurz das dahinterstehende Messprinzip der Temperaturbestimmung.}\\ \\
+	Die Bezeichnung Pt-100 steht für einen Platinwiderstand mit \SI{100}{\ohm}. Da der elektrische Widerstand eines metallischen Leiters von der Umgebungstemperatur abhängig ist, ist es möglich über Kalibrierung des Sensors die Temperatur über den Stromfluss des Sensors zu ermitteln. Dabei gilt, dass der elektrische Widerstand mit mit steigender Temperatur ebenfalls steigt. Über diese Zusammenhänge ist es möglich präzise die Temperatur eines Mediums zu messen.
+	
+	\item \textbf{Stellen Sie die bestimmten Dampfdruckwerte als Funktion der Temperatur in einem Diagramm dar.}\\\\
+	siehe Abschnitt \ref{sec:ergebnisse}
+	
+	\item \textbf{Erstellen Sie auf Basis ihrer Daten ein zweites Diagramm, in dem der natürliche Logarithmus des Dampfdrucks gegen die inverse Temperatur aufgetragen wird. Diskutieren Sie das Ergebnis im Hinblick auf die August´sche Dampfdruckgleichung und beurteilen Sie die Linearität mit einer geeigneten Kenngröße. Ermitteln Sie darüber hinaus aus dem Geradenanstieg die molare Verdampfungsenthalpie des untersuchten Stoffes. Vergleichen Sie mit dem entsprechenden Literaturwert und diskutieren Sie mögliche Ursachen für ggf. vorhandene Abweichungen.}
+	
+	\begin{figure}[h!]
+			\begin{center}
+					\resizebox{0.85\textwidth}{!}{
+					\begin{tikzpicture}[trim axis left, trim axis right]
+					\begin{axis}[
+					axis lines = left,
+					width = 15cm,
+					height = 11cm,
+					xmin = 0.0027,
+					xmax = 0.0033,
+					ymin = 2,
+					ymax = 5,
+					%	ytick = {-4.5,-4,...,-1},
+					%	xtick = {-10,-9,...,20},
+					ylabel={$\ln p$ },
+					%y label style={at={(0,0.5)}},
+					xlabel={$\frac{1}{T}$},
+					legend style={at={(0.4,0.8)},anchor=west},
+					%	y dir = reverse,
+					]
+					
+					\addplot [color=black, mark=*, only marks] coordinates{(2.82087447108604E-03,4.61174850134821) (2.84333238555587E-03,4.49980967033027) (2.86697247706422E-03,4.38202663467388) (2.89268151576511E-03,4.24849524204936) (2.92226767971946E-03,4.0943445622221) (2.95683027794205E-03,3.91202300542815) (3.00120048019208E-03,3.68887945411394) (3.05623471882641E-03,3.40119738166216) (3.09119010819165E-03,3.2188758248682) (3.13185092389602E-03,2.99573227355399) (3.2605151613955E-03,2.30258509299405)};
+					
+					\addplot +[mark=none, dashed, black, domain=0:0.0036] {-5238.9*x+19.402};
+					
+					
+					\legend{Messwerte,Regressionsgerade $p(T) = -44068*T+\SI{19,4}{} \, | \, R^2=\SI{0,998}{}$}
+					\end{axis}
+					\end{tikzpicture}}
+				\caption{Logarithmus des Druckes in Abhängigkeit von den inversen Temperatur}
+				\label{dia:linear}
+			\end{center}
+		\end{figure}
+		\FloatBarrier
+		Die Linearität ist mit einem Bestimmtheitsmaß von $R^2=0,998$ bestätigt und bestätigt über vorangegangene Logarithmierung den exponentiellen Zusammenhang zwischen Druck und Temperatur. Der Geradenanstieg entspricht der molaren Verdampfungsenthalpie und ist ähnlich zu den Werten aus der Tabelle \ref{tab:verdampf}. Somit ist deren Plausibilität ebenfalls gesichert. Die Abweichungen lassen sich zum einen durch die unter Abschnitt \ref{sec:fehler} beschriebenen Gegebenheiten der Apparatur sowie den idealen Annahmen für die Berechnung finden. Da kein ideales, sondern reales System vorliegt müssten dafür genauere, auf das reale System zugeschnittene Messungen erfolgen.
+	\newpage
+	\item \textbf{Mit Hilfe eines Datenauswerte-Programms, wie z.B. Excel oder ZUST, ist für die
+	gemessenen Wertepaare p0-T eine Regressionsrechnung durchzuführen. Dabei sind
+	die Konstanten A, B und C der Antoine-Gleichung zu bestimmen und mit Literaturwerten zu vergleichen.}\\\\
+	siehe Abschnitt \ref{sec:ergebnisse} und \ref{sec:diskussion}
+	\item \textbf{Nutzen Sie ihre ermittelten Antoine-Parameter, um die p0-T-Dampfdruckkurve mit der Antoine-Gleichung zu berechnen und vergleichen Sie ihre experimentellen Werte mit den berechneten Werten in einem Diagramm.}\\ \\
+	siehe Abschnitt \ref{sec:ergebnisse} und \ref{sec:diskussion}
 
-
+\end{enumerate}
 
 
 
