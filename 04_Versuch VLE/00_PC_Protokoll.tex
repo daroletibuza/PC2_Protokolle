@@ -10,6 +10,10 @@ a4paper,
 draft=True]
 {scrartcl}
 
+%angepasster \today Command
+\newcommand{\leadingzero}[1]{\ifnum #1<10 0\the#1\else\the#1\fi}
+\newcommand{\todayDE}{\leadingzero{\day}.\leadingzero{\month}.\the\year}
+
 %Section als Chapter
 \RedeclareSectionCommand[%
 %beforeskip = -1sp plus -1sp minus -1sp,% kleinster negativer Wert, um den Absatzeinzug nach der Überschrift zu verhindern.
@@ -62,6 +66,7 @@ hidelinks
 \usepackage{adjustbox}
 \usetikzlibrary{patterns}
 \usepackage{pdfpages}
+\usepackage[shortlabels]{enumitem}
 
 %Einheitenpackage
 \usepackage{siunitx}  

@@ -1,13 +1,47 @@
 \section{Diskussion der Ergebnisse}
 \label{sec:diskussion}
+%7.) Inhalt des Kapitels: „Diskussion der Ergebnisse
+%- Die Ergebnisse des Versuches und der in der Versuchsanleitung geforde
+%Bestimmung einzelner Parameter soll unter wissenschaftlichen Aspekten disku
+%werden. Dazu ist u.a. folgenden Fragen nachzugehen: Was sagen die Ergebn
+%aus? Welche Annahmen und Näherungen wurden für die Ergebnisfindung gema
+%Sind die Ergebnisse plausibel und decken sich mit Literatur- bzw. ande
+%Vergleichswerten? Was sind mögliche Fehlerquellen und wie groß wird ihr Einf
+%abgeschätzt?
+%- Vergleich und Einordnung der eigenen Ergebnisse zu Literaturwerten
+%- Abschluss des Kapitels: Finale Wertung der erarbeiteten Ergebnisse und Darstellung
+%ihrer Kernaussage in kurzer prägnanter Form.
 
+Bezieht man sich lediglich auf die statistischen Kennwerte erscheinen die Messwerte im Versuch als hinreichend genau und mit geringen Abweichungen versehen. \linebreak
+So zeigt sich, dass die Kalibrierkonstante $K_{\text{kal}}$ als hinreichend plausibel erscheint und somit apparative Messabweichungen von rund \SI{4}{\percent} vermieden werden können. Die stofflichen Korrekturfaktoren $K$ wurden mittels literarischer Quelle bestimmt, welche durch die Praktikumsanleitung zur Verfügung gestellt wurde und wirken daher ebenfalls vertraulich \cite{Harkins.1930}. Es ist jedoch möglich, dass inzwischen aktuellere Quellen und Methoden zu genaueren Messergebnissen führen könnten.\linebreak 
+Aus den Mittelwerten der verschiedenen Proben in Tab. \ref{tab:Stoffdaten} lassen sich die Einwirkung von Fremdstoffen in einer wässrige Lösung auf die Oberflächenspannung erkennen. Die Fremdstoffe Natriumchlorid und Ethanol weisen mit \SI{70,7}{\milli \newton \per \meter} und \SI{67,5}{\milli \newton \per \meter} geringe Abweichungen von reinem Wasser mit \SI{72,8}{\milli \newton \per \meter} bei \SI{20}{\celsius} auf. Dennoch verringern beide Fremdstoffe die Oberflächenspannung des Wassers. Grund dafür sind die gestörten Wasserstoffbrückenbindungen in der Lösung. Durch Zugabe der Fremdstoffe bilden sich diese starken Anziehungskräfte zum Phasen inneren der Lösung weniger stark aus und die Oberflächenspannung sinkt. Da Natriumchlorid polar ist als Salz und fügt sich demnach vergleichsweise gut in die Struktur des Wassers ein. Die Abweichungen fallen demnach gering aus, das die Anziehungskräfte der Wasserstoffbrückenbindungen nicht zu stark beeinflusst werden. Ethanol hingegen besitzt bereits einen unpolaren Anteil im Molekül. Zwar löst sich Ethanol im Wasser durch den polaren Anteil, der durch die Hydroxid-Gruppe repräsentiert wird, jedoch sinkt durch die weiter abweichende Struktur auch die Anziehung zwischen den Wassermolekülen. Die Oberflächenspannung sinkt deutlicher im Vergleich zum Natriumchlorid. \linebreak Vergleicht man jedoch nun beide Proben mit dem Tensid NaDDS mit \SI{39,9}{\milli \newton \per \meter} so wird ein starker Unterschied klar. Der Grund für diesen großen Unterschied in der Oberflächenspannung lässt sich erneut in der Struktur finden. Vergleicht man die Strukturen von Ethanol und NaDDS so lässt sich erkennen, dass NaDDS einen deutlich höheren, unpolaren Anteil im Molekül hat als das Ethanol-Molekül \mbox{(vgl. Abb. \ref{fig:ethanol} und Abb. \ref{fig:nadds})} . Das hat zur Folge, dass sich die Ausbildung von Wasserstoffbrücken noch stärker einschränkt.
 
-%Start
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.5\textwidth]{img/035-3}
-	\caption{Kennline von Ventilen \cite[S.35, Bild 3]{Ignatowitz.2013}}
-	\label{fig:kennlinie_ct}
+	\includegraphics[width=0.25\textwidth]{img/ethanol}
+	\caption{\textsc{Lewis}-Formel für Ethanol \cite{Wikipedia.2020d}}
+	\label{fig:ethanol}
 \end{figure}
 \FloatBarrier
 %Ende
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.5\textwidth]{img/nadds}
+	\caption{\textsc{Lewis}-Formel für NaDDS \cite{Wikipedia.2020c}}
+	\label{fig:nadds}
+\end{figure}
+\FloatBarrier
+%Ende
+NaDDS als anionisches Tensid besitzt einen langen, hydrophoben Alkylrest, welcher dazu führt, dass sich der hydrophobe Rest in Richtung der Grenzoberfläche der Lösung ausrichtet. Dieser hydrophobe Film senkt die Oberflächenspannung des Wassers massivst (siehe Tab. \ref{tab:Stoffdaten}). Deshalb werden Tenside im Regelfall als oberflächenaktive Substanzen charakterisiert.
+
+Für die Beurteilung der Temperaturabhängigkeit der Oberflächenspannung zeigt sich in Abb. \ref{dia:oberflaechenT} ein linearer Zusammenhang. Dieser beschreibt, dass mit steigender Temperatur die Oberflächenspannung der Lösung sinkt. Dies deckt sich mit dem theoretischen Verhalten aus Literaturquellen, sowie der Praktikumsanleitung \cite{Hulsenberg.2010}.
+Als Begründung für die sinkende Oberflächenspannung mit Temperaturanstieg lässt sich auf die kinetische Energie der Moleküle in der Flüssigkeit verweisen. Diese steigt mit der Temperatur zusammen und sorgt dafür, dass mehr Teilchen die benötigte Energie aufweisen, um die Anziehungskräfte zum Flüssigkeitsinneren zu überwinden. Somit nimmt die Oberflächenspannung an der Phasengrenze ab.\linebreak
+Im Diagramm (Abb. \ref{dia:oberflaechenT}) ist über die lineare Regression ebenfalls der Messpunkte durchführen. Diese lässt, laut Gleichung \eqref{gl:neunzig}, bei einer Temperatur von \SI{90}{\celsius} eine Oberflächenspannung von \SI{64,3}{\milli \newton \per \meter} bestimmen. Vergleicht man diesen Wert mit einer Literaturquelle so zeigen sich Unterschiede. Die Literaturquelle gibt für \SI{90}{\celsius} eine Oberflächenspannung von \SI{60,8}{\milli \newton \per \meter} an \cite{.20200623T05:06:09.000Z}. Da dieser Wert eine Abweichung zum Messwert aufweist, sollten die entweder engere Temperaturintervalle für die Aufnahme der Regressionsgerade gewählt werden bzw. müssen im äußersten Fall die Messungen wiederholt werden. 
+
+
+
+
+
+
+
+
