@@ -13,58 +13,41 @@
 %- Benennung der experimentellen Geräte und Hilfsmittel mit denen der Versuch
 %durchgeführt wird (Bsp: Thermostat Firma/Typ XY, Druckmessröhre Firma/Typ Z).
 
-Im Praktikumsversuch "`Oberflächenspannung an Grenzflächen"' werden verschiedene, wässrige Proben auf ihre Oberflächenspannung untersucht. Zudem ist die Temperaturabhängigkeit der Oberflächenspannung mit Hilfe von Wasser zu analysieren.\\
-Die Vorgänge an Grenzflächen  sind von großer Bedeutung für Prozesse mit Phasenwechsel. Um diese charakterisieren und weitere rechnerische Vorhersagen treffen zu können, ist die Oberflächenspannung ein entscheidender Bestandteil für diese Beschreibungen.
+Im Praktikumsversuch "`Binäres Dampf-Flüssigkeit"'  wurde das Stoffsystem Ethanol-Cyclohexan auf Abhängigkeiten zwischen Temperatur und Systemdruck, sowie der Zusammensatzungen der Dampf- und der Flüssigphase untersucht. Die gesammelten Daten werden genutzt, um ein Siede-/Tau-Diagramm und ein isobares Gleichgewichtsdiagramm zu erstellen. Zu dem ist der azeotrope Punkt des binären Stoffgemisches zu bestimmen und die Aktivitätskoeffizienten, sowie die Wilson-Parameter zu berechnen.
 
 \section*{Theoretische Grundlagen}
-\subsection*{Kohäsions- und Adhäsionskräfte}
-Zwischen Teilchen in einer flüssigen Phasen herrschen Wechselwirkungskräfte. Diese sind bedingt durch Anziehungskräfte der Teilchen untereinander in der Flüssigkeit. Für homogen verteilte Teilchen innerhalb der flüssigen Phase resultiert, aufgrund der geringen Reichweite dieser Kräfte, eine Gesamtkraft von null. Betrachtet man die Teilchen, welche sich direkt an der Phasengrenze der Flüssigkeit befinden, so ist dieser zuvor beschriebene Zusammenhang ungültig. Da auf diese Grenzteilchen, auch \textsc{Bulk}-Teilchen genannt, auch Kräfte aus der benachbarten Phase und nicht nur aus der eigenen Phase wirken, können hier resultierende Kräfte größer  oder kleiner null sein. Diese resultierende Kraft steht in diesem Fall senkrecht zur Grenzfläche.\linebreak
-Im Folgenden wird für die Beschreibung von Kräften innerhalb der stoffeigenen Phase von Kohäsions- und Kräften zwischen Phasen von Adhäsionskräften gesprochen. Sind die Adhäsionskräfte signifikant größer als die Kohäsionskräfte so maximiert die betrachtete Flüssigkeit ihre Oberfläche der Grenzschicht. Die resultierende Kraft wirkt hierbei entgegensetzt zum Phaseninneren der Flüssigkeit. Wirkt die resultierende Kraft in das Phaseninnere so sind die Kohäsionskräfte größer als die Adhäsionskräfte und die Grenzfläche der Flüssigkeit ist versucht ihre Oberfläche zu minimieren.
+Gerade für Destillations- und Rektifikationsprozesse sind die Gleichgewichte zwischen der Flüssig- und der Dampfphase von entscheidender Bedeutung. Für den Versuch werden dafür die physikalischen Grundlagen in diesem Abschnitt dargelegt.
 
-\subsection*{Ringmethode nach \textsc{Du Noüy}}
-Die Abreißmethode nach \textsc{Du Noüy} wird zur Bestimmung von Oberflächenspannungen von $v$-$l$- sowie $l$-$l$-Systemen genutzt. Bei dieser Methode wird mittels Torsionswaage  die wirkende Kraft beim langsamen Herausziehen eines Platin-Iridium-Ringes, welcher in die Flüssigkeit eingetaucht wird. Die wirkende Kraft am Ring wird nun solang erhöht bis die Benetzung der Flüssigkeit abreißt. Die letzte maximal wirkende Kraft entspricht dann der Oberflächenspannung.
-\newpage
-Das angehobene Flüssigkeitsvolumen durch Ring und Torsionswaage wirkt dabei der angelegten Kraft am Ring entgegen. Für die Oberflächenspannung ergibt sich dann:
+\subsection*{Freiheitsgrade}
+Die Anzahl der Freiheitsgrade gibt an unabhängigen Größen eines physikalischen oder chemischen Systems an \cite{Foth.2005}. Speziell für diesen Versuch wird sich dabei auf die Beziehung der Freiheitsgrade aus der \textsc{Gibb}'schen Phasenregel bezogen. Für thermodynamische Stoffsysteme ergibt sich daraus die folgende Gleichung:
 \begin{flalign}
-\label{gl:zyl}
-	\sigma	&= \frac{F_{\text{max}}}{4*\pi *R_{\text{mittel}}}
+\label{gl:gibbs}
+	F &= K-P+2
 \end{flalign}
-Zu beachten gilt es, dass für die Gleichung \eqref{gl:zyl} die Annahme getroffen, dass ein idealer Zylinder angehoben wird. In der Realität zeigt sich, jedoch ein gekrümmtes Volumen, welches in die Berechnung mit einbezogen werden muss (siehe Abb. \ref{fig:ring_real}). 
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=0.5\textwidth]{img/real}
-	\caption{Schematische Darstellung des tatsächlich angehobenen Flüssigkeitsvolumens}
-	\label{fig:ring_real}
-\end{figure}
-\FloatBarrier
-%Ende
-Im Rahmen des Praktikums erfolgt diese Einbeziehung anhand eines Korrekturfaktors. Dafür wird über den Mittelwert der gemessenen Oberflächenspannung, für ein bestimmtes Stoffsystem, einer bestimmten Temperatur $\sigma$ und dem zugehörigen theoretischen Wert der Oberflächenspannung $\sigma^\ast$ ein Verhältnis gebildet. Der Korrekturfaktor $K$.
+Die Parameter der Gleichung \eqref{gl:gibbs} stehen für die Anzahl der Freiheitsgrade $F$, die Anzahl der Komponenten $K$ und die Anzahl der Phasen $P$. Da Druck und Zusammensetzung der Flüssigkeit im Praktikum vorgegeben sind, ergibt sich aus den vier Parametern Druck $p$, Temperatur $T$, Flüssigkeitszusammensetzung $x^L$ und Dampfzusammensetzung $x^V$, zwei Parameter frei wählbar sind um das Gleichgewicht zu erhalten. Der vorgegebene Druck $p$ ist durch den Umgebungsdruck bestimmt.
 
+\subsection*{Berechnungen zu Mischsystemen}
+Betrachtet man eine ideale Mischung, so lassen sich die Zusammenhänge zwischen Druck, Temperatur und Zusammensetzung der einzelnen Phasen über das \textsc{Raoult-Dalton}'sche Gesetz in Gleichung \eqref{gl:rd} beschreiben.
 \begin{flalign}
-	K_{kal}&=\frac{\bar{x}}{x_{\text{theor.}}}\\
-	K_{kal} &= \frac{\sigma^\ast}{\sigma}
+\label{gl:rd}
+	p_i^\text{ideal} &= x_i^L*p_i(T)= x_i^V*p
 \end{flalign}
-
-\textbf{Mittelwert:}
+Der Dampfdruck $p_i^0$ der jeweiligen Komponenten lässt in Abhängigkeit der Systemtemperatur $T$ mit Hilfe der \textsc{Antoine}-Gleichung in Gleichung \eqref{gl:ant} berechnen. Die entsprechenden Parameter sind für diesen Versuch der Praktikumsanleitung zu entnehmen.
 \begin{flalign}
-\label{Gl:Mittelwert}
-\bar{x} &= \frac{\sum_{n=1}^{N}x_n}{N}
+	\label{gl:ant}
+	\lg\left(p_i^0\,\left[\si{\kilo \pascal}\right]\right) &= A-\frac{B}{C+T\, \left[\si{\celsius}\right]}
+\end{flalign}
+Um nicht-ideales Verhalten dennoch mit behaupteten Ausführungen in Gleichung \eqref{gl:rd} korrigieren zu können, wird für diese Gleichungen der Aktivitätskoeffizient $\gamma_i$ in Gleichung \eqref{gl:gamm} eingeführt und mit eingerechnet. 
+\begin{flalign}
+	\label{gl:gamm}
+	p_i^\text{real} &= x_i^L*p_i(T)*\gamma_i= x_i^V*p*\gamma_i
 \end{flalign}
 
-\textbf{Standardabweichung:}
-\begin{flalign}\label{Gl:standardabweichung}
-s &= \sqrt{\frac{\sum_{n=1}^{N}(x_n-\bar{x})^2}{N-1}}
+\subsection*{$\text{G}^{\text{E}}$-Modelle}
+Die Aktivitätskoeffizienten stellen gerade für $\text{G}^{\text{E}}$-Modelle einen wichtigen Parameter dar. So werden diese mittels Funktionen wie der \textsc{NRTL}- oder \textsc{Wilson}-Gleichung angepasst, die eine thermodynamische Konsistenz erfüllen. Ob ein Modell zur Beschreibung eines Systems thermodynamisch konsistent ist, wird durch Vergleichen des realen Verhaltens mit dem modellierten Verhalten überprüft. Da $\text{G}^{\text{E}}$-Modelle auf experimentellen Daten beruhen, ist dieser Zusammenhang zwangsläufig zu erkennen. Im Praktikum werden Beispielhaft die \textsc{Wilson}-Parameter der \textsc{Wilson}-Gleichung als $\text{G}^{\text{E}}$-Modell bestimmt \cite{Stephan.2019}.
+\begin{flalign}
+	\ln\left(\gamma_i\right) &= 1 - \ln \left(\sum_{j=1}^{K}x_j*\Lambda_{i,j}\right)-\sum_{k=1}^{K} \frac{x_k*\Lambda_{k,i}}{\sum_{j=1}^{K}x_j*\Lambda_{k,j}}
 \end{flalign}
 
-\textbf{relative Standardabweichung:}
-\begin{flalign}\label{gl:rel_s}
-s_{rel}&=\frac{s}{\bar{x}}
-\end{flalign}
-
-\textbf{Ausreißertest:}
-\begin{flalign}\label{gl:ausreißero}
-\text{obere Grenze} &=\bar{x} + 3*s
-\end{flalign}
-\begin{flalign}\label{gl:ausreißeru}
-\text{untere Grenze} &=\bar{x} - 3*s
-\end{flalign}
+\subsection*{\textsc{Abbe}-Refraktometer}
+Die Bestimmung der Dampf- und Flüssigkeitszusammensetzung erfolgt im Praktikum mittels \textsc{Abbe}-Refraktometer. Dieses basiert auf dem physikalischen Prinzip der Lichtbrechung. Dabei wird je nach Zusammensetzung zwischen Flüssig- und Gasphase ein unterschiedlicher Grenzwinkel bzw. Brechungsindex für ein monochromatisches Licht bestimmt. Das monochromatische Licht in diesem Versuch entspricht der Wellenlänge der Na-D-Linie und entspricht mit \SI{589}{\nano \meter} der dominantesten Spektrallinie von Natrium. 
