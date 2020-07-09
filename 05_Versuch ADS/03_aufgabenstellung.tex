@@ -1,0 +1,53 @@
+\section{Einleitung und Versuchsziel}
+\label{sec:aufgabenstellung}
+%- Darstellung des Versuchsziels und der in dem Versuch bearbeiteten Fragestellungen.
+%- Kurze Einführung grundlegenden theoretischen Zusammenhänge und der
+%Gleichungen die für den Versuch und die Versuchsauswertung relevant sind.
+%- Alle Abbildungen sind durchzunummerieren (Abb. 01, …) und mit einer Bild- bzw.
+%Tabellenunterschrift zu versehen. Externe Quellen sind in der Bildunterschrift als
+%Literatur-Nummer (Quelle: [1]) oder Literatur-Kürzel (Quelle: [Schmidt2015])
+%anzugeben.Physikalische Chemie
+%FB Ingenieur- und Naturwissenschaften
+%Protokollvorlage PC-II Praktikum, SoSe 2020 2
+%- Alle Formeln sind durchzunummerieren.
+%- Benennung der experimentellen Geräte und Hilfsmittel mit denen der Versuch
+%durchgeführt wird (Bsp: Thermostat Firma/Typ XY, Druckmessröhre Firma/Typ Z).
+
+Im Praktikumsversuch "`Binäres Dampf-Flüssigkeit"'  wurde das Stoffsystem Ethanol-Cyclohexan auf Abhängigkeiten zwischen Temperatur und Systemdruck, sowie der Zusammensatzungen der Dampf- und der Flüssigphase untersucht. Die gesammelten Daten werden genutzt, um ein Siede-/Tau-Diagramm und ein isobares Gleichgewichtsdiagramm zu erstellen. Zu dem ist der azeotrope Punkt des binären Stoffgemisches zu bestimmen und die Aktivitätskoeffizienten, sowie die Wilson-Parameter zu berechnen.
+
+\section*{Theoretische Grundlagen}
+Gerade für Destillations- und Rektifikationsprozesse sind die Gleichgewichte zwischen der Flüssig- und der Dampfphase von entscheidender Bedeutung. Für den Versuch werden dafür die physikalischen Grundlagen in diesem Abschnitt dargelegt.
+
+\subsection*{Freiheitsgrade}
+Die Anzahl der Freiheitsgrade gibt an unabhängigen Größen eines physikalischen oder chemischen Systems an \cite{Foth.2005}. Speziell für diesen Versuch wird sich dabei auf die Beziehung der Freiheitsgrade aus der \textsc{Gibb}'schen Phasenregel bezogen. Für thermodynamische Stoffsysteme ergibt sich daraus die folgende Gleichung:
+\begin{flalign}
+\label{gl:gibbs}
+	F &= K-P+2
+\end{flalign}
+Die Parameter der Gleichung \eqref{gl:gibbs} stehen für die Anzahl der Freiheitsgrade $F$, die Anzahl der Komponenten $K$ und die Anzahl der Phasen $P$. Da Druck und Zusammensetzung der Flüssigkeit im Praktikum vorgegeben sind, ergibt sich aus den vier Parametern Druck $p$, Temperatur $T$, Flüssigkeitszusammensetzung $x^L$ und Dampfzusammensetzung $x^V$, zwei Parameter frei wählbar sind um das Gleichgewicht zu erhalten. Der vorgegebene Druck $p$ ist durch den Umgebungsdruck bestimmt.
+
+\subsection*{Berechnungen zu Mischsystemen}
+Betrachtet man eine ideale Mischung, so lassen sich die Zusammenhänge zwischen Druck, Temperatur und Zusammensetzung der einzelnen Phasen über das \textsc{Raoult-Dalton}'sche Gesetz in Gleichung \eqref{gl:rd} beschreiben.
+\begin{flalign}
+\label{gl:rd}
+	p_i^\text{ideal} &= x_i^L*p_i(T)= x_i^V*p
+\end{flalign}
+Der Dampfdruck $p_i^0$ der jeweiligen Komponenten lässt in Abhängigkeit der Systemtemperatur $T$ mit Hilfe der \textsc{Antoine}-Gleichung in Gleichung \eqref{gl:ant} berechnen. Die entsprechenden Parameter sind für diesen Versuch der Praktikumsanleitung zu entnehmen.
+\begin{flalign}
+	\label{gl:ant}
+	\lg\left(p_i^0\,\left[\si{\kilo \pascal}\right]\right) &= A-\frac{B}{C+T\, \left[\si{\celsius}\right]}
+\end{flalign}
+Um nicht-ideales Verhalten dennoch mit behaupteten Ausführungen in Gleichung \eqref{gl:rd} korrigieren zu können, wird für diese Gleichungen der Aktivitätskoeffizient $\gamma_i$ in Gleichung \eqref{gl:gamm} eingeführt und mit eingerechnet. 
+\begin{flalign}
+	\label{gl:gamm}
+	p_i^\text{real} &= x_i^L*p_i(T)*\gamma_i= x_i^V*p*\gamma_i
+\end{flalign}
+
+\subsection*{$\text{G}^{\text{E}}$-Modelle}
+Die Aktivitätskoeffizienten stellen gerade für $\text{G}^{\text{E}}$-Modelle einen wichtigen Parameter dar. So werden diese mittels Funktionen wie der \textsc{NRTL}- oder \textsc{Wilson}-Gleichung angepasst, die eine thermodynamische Konsistenz erfüllen. Ob ein Modell zur Beschreibung eines Systems thermodynamisch konsistent ist, wird durch Vergleichen des realen Verhaltens mit dem modellierten Verhalten überprüft. Da $\text{G}^{\text{E}}$-Modelle auf experimentellen Daten beruhen, ist dieser Zusammenhang zwangsläufig zu erkennen. Im Praktikum werden Beispielhaft die \textsc{Wilson}-Parameter der \textsc{Wilson}-Gleichung als $\text{G}^{\text{E}}$-Modell bestimmt \cite{Stephan.2019}.
+\begin{flalign}
+	\ln\left(\gamma_i\right) &= 1 - \ln \left(\sum_{j=1}^{K}x_j*\Lambda_{i,j}\right)-\sum_{k=1}^{K} \frac{x_k*\Lambda_{k,i}}{\sum_{j=1}^{K}x_j*\Lambda_{k,j}}
+\end{flalign}
+
+\subsection*{\textsc{Abbe}-Refraktometer}
+Die Bestimmung der Dampf- und Flüssigkeitszusammensetzung erfolgt im Praktikum mittels \textsc{Abbe}-Refraktometer. Dieses basiert auf dem physikalischen Prinzip der Lichtbrechung. Dabei wird je nach Zusammensetzung zwischen Flüssig- und Gasphase ein unterschiedlicher Grenzwinkel bzw. Brechungsindex für ein monochromatisches Licht bestimmt. Das monochromatische Licht in diesem Versuch entspricht der Wellenlänge der Na-D-Linie und entspricht mit \SI{589}{\nano \meter} der dominantesten Spektrallinie von Natrium. 
