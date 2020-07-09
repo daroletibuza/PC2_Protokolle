@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.2)  2 JUL 2020 18:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.2)  3 JUL 2020 14:32
 entering extended mode
 **./00_PC_Protokoll.tex
 (00_PC_Protokoll.tex
@@ -1586,102 +1586,118 @@ LaTeX Font Warning: Command \boldmath invalid in math mode on input line 89.
 LaTeX Font Warning: Command \mathversion invalid in math mode on input line 89.
 
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 97--98
+\T1/lmr/m/n/12 Li-ni-en stel-len die Tau-li-ne dar. Die Far-ben der Mess-punk-t
+e sind eben-falls
+ []
+
 <img/Siededia_unifac.jpg, id=48, 806.01125pt x 547.04375pt>
 File: img/Siededia_unifac.jpg Graphic file (type jpg)
 <use img/Siededia_unifac.jpg>
-Package pdftex.def Info: img/Siededia_unifac.jpg  used on input line 97.
+Package pdftex.def Info: img/Siededia_unifac.jpg  used on input line 101.
 (pdftex.def)             Requested size: 320.0935pt x 217.24434pt.
-<img/GGW_unifac.jpg, id=49, 804.00375pt x 542.025pt>
-File: img/GGW_unifac.jpg Graphic file (type jpg)
-<use img/GGW_unifac.jpg>
-Package pdftex.def Info: img/GGW_unifac.jpg  used on input line 106.
-(pdftex.def)             Requested size: 320.0935pt x 215.78886pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6 <./img/Siededia_unifac.jpg>]
+[6]
+<img/GGW_unifac.jpg, id=54, 804.00375pt x 542.025pt>
+File: img/GGW_unifac.jpg Graphic file (type jpg)
+<use img/GGW_unifac.jpg>
+Package pdftex.def Info: img/GGW_unifac.jpg  used on input line 111.
+(pdftex.def)             Requested size: 320.0935pt x 215.78886pt.
 <img/gamma_unifac.jpg, id=55, 832.10875pt x 556.0775pt>
 File: img/gamma_unifac.jpg Graphic file (type jpg)
 <use img/gamma_unifac.jpg>
-Package pdftex.def Info: img/gamma_unifac.jpg  used on input line 115.
+Package pdftex.def Info: img/gamma_unifac.jpg  used on input line 120.
 (pdftex.def)             Requested size: 320.0935pt x 213.90807pt.
- [7 <./img/GGW_unifac.jpg> <./img/gamma_unifac.jpg>] [8]
-<img/siededia_wilson.jpg, id=64, 792.9625pt x 534.99875pt>
-File: img/siededia_wilson.jpg Graphic file (type jpg)
-<use img/siededia_wilson.jpg>
-Package pdftex.def Info: img/siededia_wilson.jpg  used on input line 204.
-(pdftex.def)             Requested size: 320.0935pt x 215.96309pt.
-<img/GGW_wilson.jpg, id=65, 798.985pt x 534.99875pt>
-File: img/GGW_wilson.jpg Graphic file (type jpg)
-<use img/GGW_wilson.jpg>
-Package pdftex.def Info: img/GGW_wilson.jpg  used on input line 213.
-(pdftex.def)             Requested size: 320.0935pt x 214.3304pt.
+ [7 <./img/Siededia_unifac.jpg> <./img/GGW_unifac.jpg>]
+Underfull \hbox (badness 2318) in paragraph at lines 130--131
+\T1/lmr/m/n/12 Für die Be-rech-nung der \T1/lmr/m/sc/12 Wil-son\T1/lmr/m/n/12 -
+Parameter und den sich dar-aus er-ge-ben
+ []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9 <./img/siededia_wilson.jpg>]
-<img/gamma_wilson.jpg, id=69, 810.02625pt x 542.025pt>
+[8 <./img/gamma_unifac.jpg>]
+Underfull \hbox (badness 1028) in paragraph at lines 165--168
+\T1/lmr/m/n/12 Ver-hält-nis-ses zwi-schen der Ak-ti-vi-tät des Cy-clo-he-x-ans 
+und der des Etha-nols
+ []
+
+
+Underfull \hbox (badness 2401) in paragraph at lines 165--168
+\T1/lmr/m/n/12 in Ab-hän-gig-keit von der Zu-sam-men-set-zung des An-teils an C
+y-clo-he-x-an in
+ []
+
+[9]
+Underfull \hbox (badness 1418) in paragraph at lines 217--218
+\T1/lmr/m/n/12 wer-den. In den Ab-bil-dun-gen 6, 7 und 8 sind die ver-schie-de-
+nen gra-fi-schen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
+
+ []
+
+<img/siededia_wilson.jpg, id=67, 792.9625pt x 534.99875pt>
+File: img/siededia_wilson.jpg Graphic file (type jpg)
+<use img/siededia_wilson.jpg>
+Package pdftex.def Info: img/siededia_wilson.jpg  used on input line 223.
+(pdftex.def)             Requested size: 320.0935pt x 215.96309pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10]
+<img/GGW_wilson.jpg, id=71, 798.985pt x 534.99875pt>
+File: img/GGW_wilson.jpg Graphic file (type jpg)
+<use img/GGW_wilson.jpg>
+Package pdftex.def Info: img/GGW_wilson.jpg  used on input line 234.
+(pdftex.def)             Requested size: 320.0935pt x 214.3304pt.
+<img/gamma_wilson.jpg, id=72, 801.99625pt x 553.06625pt>
 File: img/gamma_wilson.jpg Graphic file (type jpg)
 <use img/gamma_wilson.jpg>
-Package pdftex.def Info: img/gamma_wilson.jpg  used on input line 222.
-(pdftex.def)             Requested size: 320.0935pt x 214.19263pt.
-) (011_fehlerbetrachtung.tex [10 <./img/GGW_wilson.jpg> <./img/gamma_wilson.jpg
->]
-
-LaTeX Warning: Reference `tab:kalibrierung' on page 11 undefined on input line 
-6.
+Package pdftex.def Info: img/gamma_wilson.jpg  used on input line 245.
+(pdftex.def)             Requested size: 320.0935pt x 220.74155pt.
 
 
-LaTeX Warning: Reference `tab:Stoffdaten' on page 11 undefined on input line 6.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-
-LaTeX Warning: Reference `tab:mittel_t' on page 11 undefined on input line 6.
-
-)
-Underfull \hbox (badness 3229) in paragraph at lines 5--201
-\T1/lmr/m/n/12 über-prüf-ten Zu-sam-men-hän-ge und Mess-da-ten noch-mals mit ei
--nem an-de-ren
- []
-
-(07_diskussion.tex) (10_zusammenfassung.tex
-Underfull \hbox (badness 1127) in paragraph at lines 12--15
-\T1/lmr/m/n/12 Als Er-kennt-nis lässt sich fest-stel-len, dass die Struk-tur de
-r Fremd-stof-fe, die
+[11 <./img/siededia_wilson.jpg> <./img/GGW_wilson.jpg>])
+(011_fehlerbetrachtung.tex)
+Underfull \hbox (badness 2035) in paragraph at lines 4--201
+\T1/lmr/m/n/12 Als Feh-ler-quel-len las-sen sich haupt-säch-lich ma-nu-el-le Ar
+-beits-schrit-te, wel-che
  []
 
 
-Underfull \hbox (badness 3088) in paragraph at lines 12--15
-\T1/lmr/m/n/12 ei-ner wäss-ri-gen Lö-sung zu-ge-ge-ben wird von mas-si-ver Be-d
-eu-tung für den
+Underfull \hbox (badness 1931) in paragraph at lines 4--201
+\T1/lmr/m/n/12 Ent-neh-men der Pro-ben mit-tels Sprit-ze und das ma-nu-el-le zu
+ do-sie-ren der
  []
 
 
-Underfull \hbox (badness 2269) in paragraph at lines 12--15
-\T1/lmr/m/n/12 Ein-fluss auf Ober-flä-chen-span-nun-gen ist. So-mit könn-ten an
--hand be-stimm-ter
+Underfull \hbox (badness 1107) in paragraph at lines 4--201
+\T1/lmr/m/n/12 wel-che zu Ab-wei-chun-gen füh-ren kön-nen. Ei-ne wei-te-re Feh-
+ler-quel-le stellt die
  []
 
 
-Underfull \hbox (badness 3568) in paragraph at lines 16--17
-[]\T1/lmr/m/n/12 Ebenfalls po-si-tiv auf die Ober-flä-chen-span-nung-ver-rin-ge
--rung wirk-te sich die
+Underfull \hbox (badness 1199) in paragraph at lines 4--201
+\T1/lmr/m/n/12 Be-stim-mung der Bre-chungs-in-di-ces mit-tels Re-frak-to-me-ter
+ dar. Zwar er-folg-ten
  []
 
-
-Underfull \hbox (badness 1248) in paragraph at lines 16--17
-\T1/lmr/m/n/12 für die Re-gres-si-on Un-ter-schie-de auf, je-doch ist die all-g
-e-mei-ne Ten-denz der
- []
-
-)
-Underfull \hbox (badness 1975) in paragraph at lines 18--205
-[]\T1/lmr/m/n/12 Möchte man al-so die Ober-flä-chen-span-nung von wäss-ri-gen F
-lüs-sig-kei-ten für
- []
-
-[11]
+(07_diskussion.tex) [12 <./img/gamma_wilson.jpg>] (10_zusammenfassung.tex)
+[13]
 \openout2 = `08_literatur.aux'.
 
  (08_literatur.tex (00_PC_Protokoll.bbl
@@ -1690,12 +1706,47 @@ Underfull \hbox (badness 1215) in paragraph at lines 17--25
  (VDI Sprin-ger
  []
 
-)) [12
+)) [14
 
 ]
 \openout2 = `09_anhang.aux'.
 
- (09_anhang.tex) 
+ (09_anhang.tex
+<data/vle_data.pdf, id=87, 614.295pt x 869.79826pt>
+File: data/vle_data.pdf Graphic file (type pdf)
+<use data/vle_data.pdf>
+Package pdftex.def Info: data/vle_data.pdf  used on input line 5.
+(pdftex.def)             Requested size: 614.29349pt x 869.79614pt.
+File: data/vle_data.pdf Graphic file (type pdf)
+<use data/vle_data.pdf>
+Package pdftex.def Info: data/vle_data.pdf  used on input line 5.
+(pdftex.def)             Requested size: 614.29349pt x 869.79614pt.
+<data/vle_data.pdf, id=90, page=1, 614.295pt x 869.79826pt>
+File: data/vle_data.pdf Graphic file (type pdf)
+<use data/vle_data.pdf, page 1>
+Package pdftex.def Info: data/vle_data.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 614.29349pt x 869.79614pt.
+File: data/vle_data.pdf Graphic file (type pdf)
+<use data/vle_data.pdf, page 1>
+Package pdftex.def Info: data/vle_data.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 597.35579pt x 845.81357pt.
+File: data/vle_data.pdf Graphic file (type pdf)
+<use data/vle_data.pdf, page 1>
+Package pdftex.def Info: data/vle_data.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 597.35579pt x 845.81357pt.
+File: data/vle_data.pdf Graphic file (type pdf)
+<use data/vle_data.pdf, page 1>
+Package pdftex.def Info: data/vle_data.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 597.35579pt x 845.81357pt.
+File: data/vle_data.pdf Graphic file (type pdf)
+<use data/vle_data.pdf, page 1>
+Package pdftex.def Info: data/vle_data.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 597.35579pt x 845.81357pt.
+ [15
+
+
+ <./data/vle_data.pdf>])
+
 AED: lastpage setting LastPage
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
@@ -1706,16 +1757,13 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 212.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
  ) 
 Here is how much of TeX's memory you used:
- 39834 strings out of 480790
- 929342 string characters out of 2907059
- 1405878 words of memory out of 3000000
- 55041 multiletter control sequences out of 15000+200000
+ 39844 strings out of 480790
+ 929587 string characters out of 2907059
+ 1407878 words of memory out of 3000000
+ 55049 multiletter control sequences out of 15000+200000
  661270 words of font info for 113 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,24n,111p,10112b,2384s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1758,9 +1806,9 @@ eX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public
 /lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/
 Program Files/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX/f
 onts/type1/public/lm/lmsy8.pfb>
-Output written on 00_PC_Protokoll.pdf (13 pages, 1216493 bytes).
+Output written on 00_PC_Protokoll.pdf (16 pages, 3007009 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
+ 257 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)
- 117 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 

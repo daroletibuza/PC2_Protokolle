@@ -16,14 +16,9 @@ Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: Literatur.bib
-Warning--I didn't find a database entry for "Harkins.1930"
-Warning--I didn't find a database entry for "Wikipedia.2020d"
-Warning--I didn't find a database entry for "Wikipedia.2020c"
-Warning--I didn't find a database entry for "Hulsenberg.2010"
-Warning--I didn't find a database entry for ".20200623T05:06:09.000Z"
 You've used 2 entries,
             4011 wiz_defined-function locations,
-            806 strings with 5940 characters,
+            796 strings with 5780 characters,
 and the built_in function-call counts, 976 in all, are:
 = -- 90
 > -- 15
@@ -62,4 +57,3 @@ warning$ -- 0
 while$ -- 7
 width$ -- 3
 write$ -- 41
-(There were 5 warnings)
