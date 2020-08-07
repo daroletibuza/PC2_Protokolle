@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.2)  3 AUG 2020 21:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.2)  5 AUG 2020 11:53
 entering extended mode
 **./00_PC_Protokoll.tex
 (00_PC_Protokoll.tex
@@ -1418,13 +1418,27 @@ Underfull \hbox (badness 1286) in paragraph at lines 19--20
 -nutzt. Sie ge-ben als
  []
 
-) (05_durchfuerung.tex [2])
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
+1.
+("C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd"
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+<img/adsorption.png, id=16, 13402.07pt x 6811.4475pt>
+File: img/adsorption.png Graphic file (type png)
+<use img/adsorption.png>
+Package pdftex.def Info: img/adsorption.png  used on input line 38.
+(pdftex.def)             Requested size: 320.0935pt x 162.657pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2] [3 <./img/adsorption.png>]) (05_durchfuerung.tex [4])
 Underfull \hbox (badness 10000) in paragraph at lines 9--197
 
  []
 
-(06_ergebnisse.tex [3]) (011_fehlerbetrachtung.tex) (07_diskussion.tex)
-(10_zusammenfassung.tex) [4]
+(06_ergebnisse.tex [5]) (011_fehlerbetrachtung.tex) (07_diskussion.tex)
+(10_zusammenfassung.tex) [6]
 \openout2 = `08_literatur.aux'.
 
  (08_literatur.tex (00_PC_Protokoll.bbl
@@ -1433,13 +1447,13 @@ Underfull \hbox (badness 1215) in paragraph at lines 17--25
  (VDI Sprin-ger
  []
 
-)) [5
+)) [7
 
 ]
 \openout2 = `09_anhang.aux'.
 
  (09_anhang.tex
-<data/vle_data.pdf, id=38, 614.295pt x 869.79826pt>
+<data/vle_data.pdf, id=47, 614.295pt x 869.79826pt>
 File: data/vle_data.pdf Graphic file (type pdf)
 <use data/vle_data.pdf>
 Package pdftex.def Info: data/vle_data.pdf  used on input line 5.
@@ -1448,7 +1462,7 @@ File: data/vle_data.pdf Graphic file (type pdf)
 <use data/vle_data.pdf>
 Package pdftex.def Info: data/vle_data.pdf  used on input line 5.
 (pdftex.def)             Requested size: 614.29349pt x 869.79614pt.
-<data/vle_data.pdf, id=41, page=1, 614.295pt x 869.79826pt>
+<data/vle_data.pdf, id=50, page=1, 614.295pt x 869.79826pt>
 File: data/vle_data.pdf Graphic file (type pdf)
 <use data/vle_data.pdf, page 1>
 Package pdftex.def Info: data/vle_data.pdf , page1 used on input line 5.
@@ -1469,7 +1483,7 @@ File: data/vle_data.pdf Graphic file (type pdf)
 <use data/vle_data.pdf, page 1>
 Package pdftex.def Info: data/vle_data.pdf , page1 used on input line 5.
 (pdftex.def)             Requested size: 597.35579pt x 845.81357pt.
- [6
+ [8
 
 
  <./data/vle_data.pdf>])
@@ -1483,14 +1497,14 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 212.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
  ) 
 Here is how much of TeX's memory you used:
- 39144 strings out of 480790
- 912273 string characters out of 2907059
+ 39215 strings out of 480790
+ 913970 string characters out of 2907059
  1400878 words of memory out of 3000000
- 54391 multiletter control sequences out of 15000+200000
- 602710 words of font info for 64 fonts, out of 3000000 for 9000
+ 54454 multiletter control sequences out of 15000+200000
+ 603085 words of font info for 65 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,18n,103p,10112b,975s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section*.6} has been referenced but does not exis
+pdfTeX warning (dest): name{section*.9} has been referenced but does not exis
 t, replaced by a fixed one
 
 pdfTeX warning (dest): name{section.6} has been referenced but does not exist, 
@@ -1514,19 +1528,20 @@ replaced by a fixed one
 {C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX/
 fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mat
 hex.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program F
-iles/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Program Files/MiKTeX/fonts/typ
-e1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.
-pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Program Files
-/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/p
-ublic/lm/lmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:
-/Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/f
-onts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/
-lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Prog
-ram Files/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX/fonts
-/type1/public/lm/lmsy8.pfb>
-Output written on 00_PC_Protokoll.pdf (7 pages, 2188632 bytes).
+iles/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX/fonts/enc
+/dvips/lm/lm-ts1.enc}<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb>
+<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/Mi
+KTeX/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
+ic/lm/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/P
+rogram Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fo
+nts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr
+i12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program
+ Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/t
+ype1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy8.p
+fb>
+Output written on 00_PC_Protokoll.pdf (9 pages, 2712809 bytes).
 PDF statistics:
- 185 PDF objects out of 1000 (max. 8388607)
+ 195 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)
- 102 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 107 words of extra memory for PDF output out of 10000 (max. 10000000)
 

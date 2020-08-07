@@ -18,17 +18,55 @@ Im theoretischen Praktikumsversuch "`Adsorptionsisotherme"' werden die zur Verf�
 \section*{Theoretische Grundlagen}
 Um das sich einstellende Gleichgewicht der Beladung $b$ bei konstanter Temperatur beschreiben zu können, werden Adsorptionsisotherme genutzt. Sie geben als Funktion die Beladung $b$, je nach Aggregatzustand des Adsorptives, in Abhängigkeit vom Druck $p$ oder der Konzentration $c$ an. Alternativ kann auch anstelle der Beladung $b$ der Bedeckungsgrad $\Theta$ genutzt werden.
 
-\subsection*{Grundbegriffe}
+\subsection*{Grundbegriffe \cite{prakti}}
+\subsubsection*{Adsorption und Desorption}
+Wird das Binden von Teilchen an eine flüssige oder feste Phasengrenze provoziert, so spricht man bei diesem Vorgang von Adsorption. Das Ablösen der Teilchen von einer solchen Phasengrenze nennt sich Desorption. Die Teilchen, welche an eine feste oder flüssige Phasengrenze adsorbieren können selbst aus einer festen, flüssigen oder gasförmigen Phase entstammen. In der Praxis findet sich häufiger die Adsorption von Teilchen an eine feste Phasengrenze.\\
+Je nachdem welcher Mechanismus beim Adsorptionsprozess wirkt, wird dieser entweder der Chemisorption, aufgrund von sich ausbildenden chemischen Bindungen oder der Physisorption zugeordnet. Letztere liegt in diesem theoretischen Versuch vor und beruht auf physikalischen Wechselwirkungen zwischen der Phasengrenze und den zu adsorbierenden Teilchen.
+
+\subsubsection*{Nomenklatur von Adsorptionsvorgängen}
+Um die Mechanismen der Adsorption beschreiben zu können, werden verschiedene Fachtermini genutzt, welche zum Teil in Abbildung \ref{fig:adsorption} dargestellt sind.
+
+Im folgenden ist eine Kurzbeschreibung der wichtigsten Begriffe aufgelistet:
+\begin{itemize}
+	\item \textbf{Adsorbat, hier Iod}: der adsorbierter Stoff
+	\item \textbf{Adsorbens, hier Aktivkohle}: das adsorbierende Material
+	\item \textbf{Adsorptiv, hier Kaliumiodid-Lösung}: stoffabgebende Phase
+\end{itemize}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.75\textwidth]{img/adsorption}
+	\caption{Skizze zu Begriffen der Adsorption}
+	\label{fig:adsorption}
+\end{figure}
+\FloatBarrier
+%Ende
+
+ Um zu quantifizieren wie gut oder in welchem Ausmaß ein Adsorptionsprozess abläuft oder abgelaufen ist, werden die Begriffe Beladung $b$ und Bedeckungsgrad $\Theta$ eingeführt.
+ Die Beladung $b$ beschreibt dabei das Verhältnis zwischen der Masse von Adsorbat zur Masse des Adsorbens (siehe Gl. \ref{gl:beladung}).
+ \begin{flalign}
+ \label{gl:beladung}
+  	b &= \frac{m_{\text{Adsorbat}}}{m_{\text{Adsorbens}}}
+ \end{flalign}
+ Für die relative Beladung, sprich dem Bedeckungsgrad $\Theta$, wird eben diese Beladung in das Verhältnis für die maximale Beladung des Adsorbens gesetzt (siehe Gl. \ref{gl:bedeckungsgrad}). Die maximale Beladung $b_\infty$ wird dabei unter der Annahme bestimmt, dass die Adsorptionsplätze der Adsorbensoberfläche alle monomolekular besetzt sind.
+ \begin{flalign}
+  \label{gl:bedeckungsgrad}
+ 	\Theta &= \frac{b}{b_{\infty}}
+ \end{flalign}
+
+Da sich bei konstanter Temperatur nach einer bestimmten Zeit ein Gleichgewicht einstellt, welches von der Konzentration bzw. vom Druck abhängig ist, können daraus sogenannte Adsorptionsisotherme aufgetragen werden. Diese beschreiben den funktionellen Zusammenhang zwischen Beladung und Konzentration bzw. Druck. Zwei solcher Adsorptionsisotherme werden in diesem Praktikumsversuch näher untersucht. 
 
 
 \subsection*{Freundlich-Isotherme}
+Der Ansatz der \textsc{Freundlich}-Isotherme erfolgt mathematisch nach einer Potenzfunktion. Hierbei wird angenommen, dass bei stärkerer Beladung weniger des zu adsorbierenden Stoffes aufgenommen werden kann. Aufgrund der Beschreibung mithilfe einer Potenzfunktion kann eine vollständige Beladung nicht beschrieben werden.  
 \begin{flalign}
 	\tag*{| $\ln\left(...\right)$}	b &= k*c^n \\
 	\ln\left(b\right) &= \ln\left(k\right)+n*\ln\left(c\right)
 \end{flalign}
 
-
 \subsection*{Langmuir-Isotherme}
+Ein weiteres Adsorptionsmodell stellt die \textsc{Langmuir}-Isotherme dar. Sie ist ein simples Modell zur Beschreibung der vollständigen Adsorption an der Adsorbensoberfläche. Es werden jedoch erhebliche Vereinfachungen getroffen, wie dass die Adsorption lediglich in einer einzelnen molekularen Schicht statt findet, sowie das alle Plätze für die Adsorption gleichwertig und gleichförmig sind. Zu dem werden bei \textsc{Langmuir} Wechselwirkungen zwischen benachbarten Plätzen und den adsorbierenden Teilchen vernachlässigt. \cite{wiki_lang}
+
 \begin{flalign}
 	\tag*{| $*\,c$ \hspace*{8.5mm}} 
 	\frac{1}{b_{\infty}} *\frac{1}{K}*\frac{1}{c} + \frac{1}{b_{\infty}} &= \frac{1}{b}\\
@@ -40,4 +78,5 @@ Um das sich einstellende Gleichgewicht der Beladung $b$ bei konstanter Temperatu
 \end{flalign}
 
 KI Lösung warum ? Citavi Website
-GEsetzmäßigkeit ? Lambert BEersches Gesetz
+GEsetzmäßigkeit ? Lambert Beersches Gesetz
+Warum Extinktion über 1,5 kritisch
