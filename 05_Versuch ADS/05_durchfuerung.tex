@@ -6,9 +6,49 @@
 %Beobachtungsprotokoll.
 %- Benennung der ggf. während des Versuches aufgetretenen Schwierigkeiten,
 %Probleme oder unerwarteten Phänomene.
-Geräte\\
-- Spektralfotometer\\
-- Schüttelmaschine\\
-- Pipetten\\
-- Erlenmeyerkolben\\
-- Maßkolben\\
+\subsection*{Geräte und Chemikalien}
+\begin{itemize}
+	\item Spektralfotometer
+	\item Schüttelmaschine
+	\item Pipetten
+	\item \textsc{Erlenmeyer}-Kolben
+	\item Maßkolben
+	\item Aktivkohle
+	\item Kaliumiodid-Lösung
+	\item Iod-Lösung
+\end{itemize}
+
+\subsection*{Theoretische Versuchsbeschreibung}
+\subsubsection*{Ansetzten der Systeme Aktivkohle - Iodlösung für unterschiedliche Aktivkohlemassen}
+Es würden zunächst 10 Proben mit verschiedenen Massen an Aktivkohle und je \SI{20}{\milli \liter} Iod-Stammlösung vorbereitet werden. Die Aktivkohle würde von \SI{0,10}{\gram} bis \SI{1,00}{\gram} in \SI{0,10}{\gram}-Schritten jeweils in einen \textsc{Erlenmeyer}-Kolben eingewogen werden. Die Stammlösung wird aus \SI{10}{\gram} Iod und \SI{57}{\gram} Kaliumiodid auf \SI{1}{\liter} hergestellt. Um die Gleichgewichtseinstellung sicherzustellen zu können, würden die jeweiligen Gemische anschließend \SI{2}{\hour} lang geschüttelt werden. Im Versuch müsste auch eine Mindest-Schüttelgeschwindigkeit mit Hilfe einer Markierung am Schüttelgerät beachtet und kontrolliert werden.\\
+
+\textit{Warum wird bei diesen Versuchen eine Kaliumiodid-Lösung benutzt ?}\\
+Kaliumiodid ist nötig um ein sinnvolles chemisches Gleichgewicht zwischen Aktivkohle und der zu testenden Lösung herzustellen. Für die Vergleichbarkeit wird jedes Mal dieselbe Stammlösung genutzt. \\
+Zusätzlich finden Iod-Lösungen auch allgemein Verwendung für die Charakterisierung der Adsorptionseigenschaften von Aktivkohle. So lässt sich mit Hilfe von Iod nach DIN EN 12902 die sogenannte Iodzahl (IAN) bestimmen. Hierbei wird stets von einer monomolekularen Bedeckung an Iod auf der Aktivkohle ausgegangen. \cite{iodzahl_IAN}
+
+\newpage
+
+\subsubsection*{Vorbereitung der fotometrischen Konzentrationsbestimmung}
+
+In diesem Abschnitt der Versuchsdurchführung würde die Kalibriergerade für Bestimmung der Iod-Konzentration aufgenommen werden.
+Hierfür würde zunächst das Absorptionsmaximum einer stark verdünnten Iod-Lösung mittels Fotometrie bestimmt werden. Es würden Wellenlängen zwischen $325-\SI{375}{\nano\meter}$ als Suchbereich festgelegt werden.
+Für die Kalibrierung werden nun die Kalibrierlösungen mit 2, 4, 6, 8, 10, 12, 16, 20 und \SI{24}{\milli \gram \per \liter} mit einem Gesamtvolumen von je \SI{25}{\milli \liter} hergestellt. Als zweite Stammlösung für die Kalibrierlösungen würde eine Iod-Lösung mit \SI{100}{\milli \gram \per \liter} bereitgestellt werden.
+Mit dem bestimmten Absorptionsmaximum würden nun die Kalibrierlösungen fotometrisch gemessen werden. Im Anschluss würde die Extinktion über die Iod-Konzentration grafisch aufgetragen werden. Zu beachten ist hierbei, dass die genutzten Messzellen identisch sind.
+
+\subsubsection*{Fotometrische Messung der Gleichgewichtskonzentrationen}
+
+Nach dem Aufstellen der Kalibriergerade und dem zweistündigen Schütteln der Proben würde sich im Anschluss der vorangegangenen Versuchsschritte nun die Konzentrationsbestimmung der Proben anschließen.
+
+Diese erfolgt ebenfalls fotometrisch und die Konzentration wird mit der bestimmten Kalibriergerade berechnet. Bei Extinktionswerten über 1,5 werden die Proben entsprechend verdünnt.\\
+
+\textit{Welche Gesetzmäßigkeit ist im linearen Bereich der Kalibrierkurve gültig?}\\
+Im linearen Bereich der Kalibrierkurve ist das \textsc{Lambert-Beer}'sche Gesetz gültig. Es beschreibt mithilfe der Schichtdicke der Küvette und dem Extinktionskoeffizienten einen linearen Zusammenhang zwischen Konzentration einer Lösung und der Extinktion.
+\begin{flalign}
+E &= \varepsilon *d*c 
+\end{flalign}
+
+\textit{Warum sind Extinktionswerte über 1,5 als kritisch zu sehen?}\\
+Da bei höheren Konzentration nicht mehr für alle Moleküle die gleiche Wahrscheinlichkeit für die Absorption vorliegt, können lediglich Extinktionswerte bis 1,5 als nicht-kritisch bewertet werden. Über diesem Wert ist kein linearer Zusammenhang zwischen Extinktion und Konzentration gegeben, da sich der Absorptionsquerschnitt ändert. Der Extinktionskoeffizient wird eine funktionelle Größe, welche von der Konzentration abhängig ist.\\
+Grund für dieses Verhalten leitet sich aus den Wechselwirkungen zwischen den Teilchen ab, welche sich in Form von Dissoziation und Aggregation beschreiben lassen können.\cite{extinktion}
+
+ 

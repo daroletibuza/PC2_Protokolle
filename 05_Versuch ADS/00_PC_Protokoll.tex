@@ -47,12 +47,13 @@ hidelinks
 
 %\renewcommand{\familydefault}{\sfdefault}
 
+\usepackage{colortbl}
 \usepackage{graphicx}
 \graphicspath{{img/}}
 \usepackage{mhchem}
 \usepackage{fancyhdr}
 \usepackage{lmodern}
-\usepackage{color}
+\usepackage[table]{xcolor}
 \usepackage{placeins}
 \usepackage{booktabs}
 \usepackage{caption}
@@ -60,6 +61,8 @@ hidelinks
 \usepackage{longtable}
 \usepackage{tikz}
 \usepackage{pgfplots}
+\pgfplotsset{/pgf/number format/use comma}
+\pgfplotsset{grid style={white!90!black}}
 \usepackage{lastpage}
 %\usepackage{ulem}
 \usepackage{mathtools}
