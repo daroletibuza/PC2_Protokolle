@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.2)  9 AUG 2020 19:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.2)  11 AUG 2020 20:48
 entering extended mode
 **./00_PC_Protokoll.tex
 (00_PC_Protokoll.tex
@@ -1472,19 +1472,50 @@ Underfull \hbox (badness 3536) in paragraph at lines 50--53
 -le die glei-che
  []
 
-) (06_ergebnisse.tex [6] [7]
+) (06_ergebnisse.tex [6] [7] [8]
 
 LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
-(Font)              using `T1/lmr/bx/n' instead on input line 178.
+(Font)              using `T1/lmr/bx/n' instead on input line 212.
 
-[8] [9]
-Underfull \hbox (badness 2951) in paragraph at lines 298--298
+[9] [10]
+Underfull \hbox (badness 2951) in paragraph at lines 334--334
 [][][]|\T1/lmr/m/n/12 Mess-wer-te und auf Mess-wer-ten ge-fit-te-te Ad-sorp-ti-
 ons-i-so-ther-me nach
  []
 
-) (011_fehlerbetrachtung.tex) (07_diskussion.tex) (10_zusammenfassung.tex)
-[10]
+) (011_fehlerbetrachtung.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+)
+Underfull \hbox (badness 3954) in paragraph at lines 6--204
+\T1/lmr/m/n/12 Ein-schät-zung. Wel-ches Mo-dell sich am Bes-ten für die Be-schr
+ei-bung der
+ []
+
+(07_diskussion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+
+ []
+
+)
+Underfull \hbox (badness 1331) in paragraph at lines 20--206
+\T1/lmr/m/n/12 ein-deu-tig dar-ge-stellt und zeigt im Be-stimmt-heits-maÿ der M
+o-del-le, dass die
+ []
+
+(10_zusammenfassung.tex
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+) [12]
 \openout2 = `08_literatur.aux'.
 
  (08_literatur.tex (00_PC_Protokoll.bbl
@@ -1551,7 +1582,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--34
 f & usg =
  []
 
-)) [11
+)) [13
 
 ]
 \openout2 = `09_anhang.aux'.
@@ -1570,14 +1601,14 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 215.
  ) 
 Here is how much of TeX's memory you used:
- 39895 strings out of 480790
- 930352 string characters out of 2907059
- 1449902 words of memory out of 3000000
- 55113 multiletter control sequences out of 15000+200000
+ 39897 strings out of 480790
+ 930388 string characters out of 2907059
+ 1441499 words of memory out of 3000000
+ 55115 multiletter control sequences out of 15000+200000
  636457 words of font info for 88 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,26n,111p,10112b,2634s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section*.26} has been referenced but does not exi
+pdfTeX warning (dest): name{section*.29} has been referenced but does not exi
 st, replaced by a fixed one
 
 pdfTeX warning (dest): name{section.6} has been referenced but does not exist, 
@@ -1613,9 +1644,9 @@ s/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/
 public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pf
 b><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files/Mi
 KTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on 00_PC_Protokoll.pdf (12 pages, 1016983 bytes).
+Output written on 00_PC_Protokoll.pdf (14 pages, 1025926 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
+ 159 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)
  87 words of extra memory for PDF output out of 10000 (max. 10000000)
 
