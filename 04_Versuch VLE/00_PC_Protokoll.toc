@@ -7,3 +7,4 @@
 \contentsline {section}{\numberline {6}Zusammenfassung und Fazit}{13}{section.6}%
 \contentsline {section}{Literaturverzeichnis}{14}{section*.22}%
 \contentsline {section}{Anhang}{15}{section*.22}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
